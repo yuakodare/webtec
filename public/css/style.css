@@ -1,0 +1,58 @@
+html {
+    background-color: #1A1A1A; /* mörk svart */
+    border: 8px solid #000; /* svart */
+}
+
+body {
+    background-color: #FFFFFF; /* vit */
+    border: 4px solid #2C3E50; /* mörk blå */
+}
+
+main {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 1em; /* ökat padding för mer utrymme */
+    border: 4px solid #BDC3C7; /* ljusgrå */
+    background-color: #ECF0F1; /* mycket ljus grå */
+    color: #2C3E50; /* mörk blå text */
+}
+
+nav {
+    background-color: #3498DB; /* klar blå */
+    border-bottom: 4px solid #2980B9; /* mörkare blå */
+    color: #FFFFFF; /* vit text */
+    overflow: auto;
+}
+
+nav a {
+    color: #FFFFFF; /* vit text */
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #2980B9; /* mörkare blå vid hover */
+    text-decoration: underline;
+}
+
+header {
+    background-color: #3498DB; /* klar blå */
+    border-bottom: 2px solid #2980B9; /* mörkare blå */
+    color: #FFFFFF; /* vit text */
+    overflow: auto;
+}
+
+footer {
+    background-color: #1A1A1A; /* mörk svart */
+    color: #FFFFFF; /* vit text */
+    padding: 1em; /* padding för mer utrymme */
+    text-align: left; /* text till vänster */
+}
+
+footer a:link,
+footer a:visited {
+    color: #FFFFFF; /* vit text */
+}
+
+footer a:hover {
+    color: #3498DB; /* klar blå vid hover */
+}
